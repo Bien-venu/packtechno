@@ -38,7 +38,7 @@ function Card() {
             <div className="leftdata">
               <h1
                 key={index}
-                className="font font- mb-2 text-lg whitespace-nowrap"
+                className=" mb-2 text-lg whitespace-nowrap"
               >
                 {item.title}
               </h1>

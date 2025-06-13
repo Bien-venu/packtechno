@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href="">Learn</Link>
           <Link href="">Pricing</Link>
         </div>
-        <div className="bg-primary text-dark flex items-center gap-1 rounded-full p-3 px-6 text-white">
+        <div className="bg-primary text-dark flex items-center gap-1 rounded-md p-3 px-6 text-white">
           <CallIcon size={15} />
           Contact
         </div>

@@ -9,7 +9,7 @@ const Home = () => {
       <Hero />
       <About />
       <Services services={services} />
-      <div className="bg-secondary flex h-screen w-full py-8">Be ware!</div>
+      <div className="bg-primary flex h-screen w-full py-8">Be ware!</div>
     </div>
   );
 };

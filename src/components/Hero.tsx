@@ -206,7 +206,7 @@ export default function HeroSection() {
                 repeat: Number.POSITIVE_INFINITY,
                 repeatType: "reverse",
               }}
-              className="bg-primary absolute h-1 w-1 rounded-full"
+              className="bg-primary absolute h-1 w-1 rounded-md"
               style={{
                 boxShadow: "0 0 10px rgba(249, 115, 22, 0.5)",
               }}
@@ -263,10 +263,10 @@ export default function HeroSection() {
                   ],
                 }}
                 transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
-                className="bg-primary h-2 w-2 rounded-full"
+                className="bg-primary h-2 w-2 rounded-md"
               />
               <div className="from-primary/80 h-[1px] w-12 bg-gradient-to-r to-transparent" />
-              <div className="rounded-full border border-white/10 bg-black/40 px-3 py-1 text-xs text-white/60 backdrop-blur-md">
+              <div className="rounded-md border border-white/10 bg-black/40 px-3 py-1 text-xs text-white/60 backdrop-blur-md">
                 Grow with us.
               </div>
               <div className="from-primary/80 h-[1px] w-12 bg-gradient-to-l to-transparent" />
@@ -283,7 +283,7 @@ export default function HeroSection() {
                   repeat: Number.POSITIVE_INFINITY,
                   delay: 0.5,
                 }}
-                className="bg-primary h-2 w-2 rounded-full"
+                className="bg-primary h-2 w-2 rounded-md"
               />
             </div>
           </motion.div>

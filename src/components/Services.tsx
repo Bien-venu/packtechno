@@ -163,10 +163,10 @@ const Services: React.FC<ImageSliderProps> = ({ services }) => {
 
   return (
     <div>
-      <section className="sticky-element items- bg-primary/10 flex h-fit w-full flex-col justify-start gap-12 overflow-hidden py-20">
-        <div className="font-family-headings container mx-auto flex text-3xl">
+      <section className="sticky-element items- bg-primary/30 flex h-fit w-full flex-col justify-start gap-12 overflow-hidden py-20">
+        <h2 className="font-family-headings container mx-auto mt-4 mb-4 text-3xl leading-12 font-medium">
           Services We Provide
-        </div>
+        </h2>
         <div className="track w-fit flex-none">
           <div className="track-flex mx-[50vw] flex h-fit items-center justify-start gap-8">
             {services.map((service) => (
@@ -175,7 +175,7 @@ const Services: React.FC<ImageSliderProps> = ({ services }) => {
                 data-id={service.id}
                 className="panel-wide relative flex h-[34rem] w-[27rem] flex-none flex-col items-center justify-end gap-8 overflow-hidden rounded-4xl bg-black p-8 text-white shadow-lg"
               >
-                <div className="flex h-72 w-80">
+                <div className="image-clippy flex h-72 w-80 overflow-hidden rounded-xl">
                   <Image
                     className="z-0 h-full w-full object-cover"
                     src={service.image}
@@ -197,7 +197,7 @@ const Services: React.FC<ImageSliderProps> = ({ services }) => {
           </div>
         </div>
         <div className="container mx-auto flex text-sm text-white">
-          <div className="bg-primary text-dark flex w-fit items-center gap-1 rounded-full p-3 px-6 text-white">
+          <div className="bg-primary text-dark flex w-fit items-center gap-1 rounded-md p-3 px-6 text-white">
             <CallIcon size={15} />
             Contact
           </div>
