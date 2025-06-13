@@ -1,26 +1,123 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Light Weight */
+@font-face {
+  font-family: "MerchantFont"; /* Same font-family name */
+  src:
+    url("/fonts/merchant/Merchant-Light.woff2") format("woff2"),
+    url("/fonts/merchant/Merchant-Light.woff") format("woff");
+  font-weight: 300; /* Numeric value for Light */
+  font-style: normal;
+  font-display: swap;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Regular Weight */
+@font-face {
+  font-family: "MerchantFont"; /* Same font-family name */
+  src:
+    url("/fonts/merchant/Merchant-Regular.woff2") format("woff2"),
+    url("/fonts/merchant/Merchant-Regular.woff") format("woff");
+  font-weight: 400; /* Numeric value for Regular (default) */
+  font-style: normal;
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Medium Weight */
+@font-face {
+  font-family: "MerchantFont"; /* Same font-family name */
+  src:
+    url("/fonts/merchant/Merchant-Medium.woff2") format("woff2"),
+    url("/fonts/merchant/Merchant-Medium.woff") format("woff");
+  font-weight: 500; /* Numeric value for Medium */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold Weight */
+@font-face {
+  font-family: "MerchantFont"; /* Same font-family name */
+  src:
+    url("/fonts/merchant/Merchant-Bold.woff2") format("woff2"),
+    url("/fonts/merchant/Merchant-Bold.woff") format("woff");
+  font-weight: 700; /* Numeric value for Bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Black Weight */
+@font-face {
+  font-family: "MerchantFont"; /* Same font-family name */
+  src:
+    url("/fonts/merchant/Merchant-Black.woff2") format("woff2"),
+    url("/fonts/merchant/Merchant-Black.woff") format("woff");
+  font-weight: 900; /* Numeric value for Black/Heavy */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Light Weight */
+@font-face {
+  font-family: "WhyteFont"; /* Same font-family name */
+  src:
+    url("/fonts/Whyte/Whyte-Light.woff2") format("woff2"),
+    url("/fonts/Whyte/Whyte-Light.woff") format("woff");
+  font-weight: 300; /* Numeric value for Light */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular Weight */
+@font-face {
+  font-family: "WhyteFont"; /* Same font-family name */
+  src:
+    url("/fonts/Whyte/Whyte-Regular.woff2") format("woff2"),
+    url("/fonts/Whyte/Whyte-Regular.woff") format("woff");
+  font-weight: 400; /* Numeric value for Regular (default) */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium Weight */
+@font-face {
+  font-family: "WhyteFont"; /* Same font-family name */
+  src:
+    url("/fonts/Whyte/Whyte-Medium.woff2") format("woff2"),
+    url("/fonts/Whyte/Whyte-Medium.woff") format("woff");
+  font-weight: 500; /* Numeric value for Medium */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold Weight */
+@font-face {
+  font-family: "WhyteFont"; /* Same font-family name */
+  src:
+    url("/fonts/Whyte/Whyte-Bold.woff2") format("woff2"),
+    url("/fonts/Whyte/Whyte-Bold.woff") format("woff");
+  font-weight: 700; /* Numeric value for Bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Black Weight */
+@font-face {
+  font-family: "WhyteFont"; /* Same font-family name */
+  src:
+    url("/fonts/Whyte/Whyte-Black.woff2") format("woff2"),
+    url("/fonts/Whyte/Whyte-Black.woff") format("woff");
+  font-weight: 900; /* Numeric value for Black/Heavy */
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-primary: #4f49f5;
+  --color-secondary: #ff835e;
+
+  --font-family-primary: "WhyteFont", sans-serif;
+  --font-family-headings: "MerchantFont", sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
