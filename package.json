@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
+    "@splinetool/runtime": "^1.10.7",
     "@studio-freight/lenis": "^1.0.42",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

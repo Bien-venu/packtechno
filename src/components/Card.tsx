@@ -30,7 +30,7 @@ function Card() {
         return (
           <div
             key={index}
-            className="card min-w-[30vh] items-start gap-6 border-[1px] border-black/10 px-4 py-4 sm:flex sm:w-[30vw]"
+            className="card min-w-[30vh] items-start gap-6 rounded-xl border-[1px] border-black/10 p-6 sm:flex sm:w-[30vw]"
           >
             <div className="flex">
               <item.icon size={24} className="text-primary" />

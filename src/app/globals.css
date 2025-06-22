@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 @import "tailwindcss";
 
 /* Light Weight */
@@ -114,8 +115,8 @@
   --color-primary: #4f49f5;
   --color-secondary: #ff835e;
 
-  --font-family-primary: "WhyteFont", sans-serif;
-  --font-family-headings: "MerchantFont", sans-serif;
+  --font-family-primary: "Abel", sans-serif; 
+  /* --font-family-headings: "MerchantFont", sans-serif; */
 }
 
 body {

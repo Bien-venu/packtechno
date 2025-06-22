@@ -76,7 +76,7 @@ function Craft() {
   return (
     <div
       data-color="cyan"
-      className="relative container mx-auto h-screen w-full items-center justify-between gap-x-40 py-8 sm:flex"
+      className="relative container bg-white mx-auto h-screen w-full items-center justify-between gap-x-40 py-8 sm:flex"
     >
       <div className="ltext left-0 sm:sticky sm:top-[10%] sm:w-1/2">
         <p className="text-[2vh] leading-[2.5vh]">
@@ -85,7 +85,7 @@ function Craft() {
           simplifying complexity, accelerating capabilities, and improving
           outcomes through expert design and leadership.
         </p>
-        <h2 className="texthead font-family-headings mt-4 mb-4 text-3xl leading-12 font-medium">
+        <h2 className=" font-family-headings mt-4 mb-4 text-3xl leading-12 font-medium">
           Innovating and Delivering Digital Excellence
         </h2>
         <div className="bg-primary text-dark flex w-fit items-center gap-1 rounded-md p-3 px-6 text-white">
